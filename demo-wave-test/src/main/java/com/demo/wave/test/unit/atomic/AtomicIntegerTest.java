@@ -8,7 +8,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  * @author Vince Yuan
  * @date 2021/11/30
  */
-public class TestAtomicInteger {
+public class AtomicIntegerTest {
 
     @Test
     public void testAtomicInteger() {

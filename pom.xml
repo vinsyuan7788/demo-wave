@@ -12,6 +12,7 @@
         <module>demo-wave-fundamental</module>
         <module>demo-wave-test</module>
         <module>demo-wave-common</module>
+        <module>demo-wave-server</module>
     </modules>
 
     <properties>
@@ -27,6 +28,7 @@
         <jol-core.version>0.16</jol-core.version>
         <!-- Versions for Custom Dependencies -->
         <demo-wave-common.version>1.0.0-SNAPSHOT</demo-wave-common.version>
+        <demo-wave-server.version>1.0.0-SNAPSHOT</demo-wave-server.version>
         <demo-wave-fundamental.version>1.0.0-SNAPSHOT</demo-wave-fundamental.version>
     </properties>
 
@@ -77,6 +79,12 @@
                 <groupId>com.demo</groupId>
                 <artifactId>demo-wave-common</artifactId>
                 <version>${demo-wave-common.version}</version>
+            </dependency>
+            <!-- demo-wave-server -->
+            <dependency>
+                <groupId>com.demo</groupId>
+                <artifactId>demo-wave-server</artifactId>
+                <version>${demo-wave-server.version}</version>
             </dependency>
             <!-- demo-wave-fundamental -->
             <dependency>

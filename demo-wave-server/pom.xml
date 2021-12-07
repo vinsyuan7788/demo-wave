@@ -9,16 +9,9 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>demo-wave-test</artifactId>
+    <artifactId>demo-wave-server</artifactId>
 
     <dependencies>
-        <!-- Testing Suite -->
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <scope>compile</scope>
-        </dependency>
-
         <!-- SLF4J -->
         <dependency>
             <groupId>org.slf4j</groupId>
@@ -51,16 +44,6 @@
         <dependency>
             <groupId>com.demo</groupId>
             <artifactId>demo-wave-common</artifactId>
-        </dependency>
-        <!-- demo-wave-server -->
-        <dependency>
-            <groupId>com.demo</groupId>
-            <artifactId>demo-wave-server</artifactId>
-        </dependency>
-        <!-- demo-wave-fundamental -->
-        <dependency>
-            <groupId>com.demo</groupId>
-            <artifactId>demo-wave-fundamental</artifactId>
         </dependency>
     </dependencies>
 </project>
